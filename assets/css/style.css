@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #282A3A;
+}
+
+
+/* navbar Section */
+.nav-link {
+    font-size: 1rem;
+}
+
+.nav-link.active {
+    font-weight: 500;
+}
+
+.navbar-balancer {
+    margin-right: 30rem;
+}
+
+.navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-nav > li > a:active {
+    font-weight: 700;
+    color: #FFC24C;
+}
+
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    font-weight: 500;
+    color: #FFC24C;
+}
+
+.button-primary {   
+    background-color: #735F32;
+    color: #FFC24C;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+}
+
+.button-primary:hover {
+    color: #282A3A;
+    background-color: #FFC24C;
+}
+
+.navbar-default .navbar-toggler {
+    color: #735F32;
+}
+
+.navbar-default .navbar-toggler:hover {
+    color: #FFC24C;
+}
+
+.navbar-default .navbar-toggler-icon {
+    color: #735F32 !important;
+    margin-top: 5px;
+}
+
+.navbar-default .navbar-toggler-icon:active {
+    color: #FFC24C !important;
+}
+/* End Navbar Section */
+
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    background-image: url('../img/hero-darker.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #282A3A;
+}
+
+.hero-tagline {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.hero-tagline h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+
+/* "care" word color */
+.care {
+    color: #FFC24C;
+}
+
+.email-sentence {
+    color: #fff;
+    width: 100%;
+}
+
+.hero-tagline p {
+    color: #fff ;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 82%;
+}
+/* End Hero Section */
+
+
+/* Service Section */
+
+/* End Service Section */

@@ -1,0 +1,27 @@
+Motto "We care about your shoes as the same you care"
+
+	Logo					Home About Services Contact 
+
+
+Home
+
+
+
+
+About
+	Lorem ipsum
+
+
+
+Services
+	Basic Cleaning
+	Hard Cleaning
+	Premium Cleaning
+
+Contact
+	Map iframe
+	Address
+	Whatsapp & Instagram
+
+Footer
+	Made by Wildsy
