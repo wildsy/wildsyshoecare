@@ -30,7 +30,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-default">
+    <nav id="navbar-id" class="navbar fixed-top navbar-expand-lg navbar-default">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/Group 2.svg" alt="" width="190" class="d-inline-block">
@@ -54,7 +54,7 @@
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="#">Contact</a>
@@ -86,9 +86,11 @@
         </div>
     </section>
 
+    <!-- About Section -->
+
 
     <!-- Service Section -->
-    <!-- <section id="service">
+    <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -96,13 +98,40 @@
                     <span class="sub-title">We provide a wide range of services for the care of your favorite items that will be carried out by our experienced and professional team.</span>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
 
+            <div class="row mt-5">
+                <div class="col-md-4 text-center">
+                    <div class="services-card">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="assets/img/services/fast-cleaning.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-4">Fast Cleaning</h3>
+                        <p class="mt-3">Fast cleaning is an instant washing of the upper and midsole which can be waited for 15-30 minutes.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="services-card">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="assets/img/services/hard-cleaning.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-4">Hard Cleaning</h3>
+                        <p class="mt-3">Detailed and thorough shoe cleaning care for all parts.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <div class="services-card">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="assets/img/services/premium-treatment.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-4">Premium Treatment</h3>
+                        <p class="mt-3">Treatment intended for special materials in the process and use special materials in each product.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
 
     <!-- Boootstrap JS -->
