@@ -11,7 +11,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Icon title bar -->
-    <link rel="icon" href="assets/img/Logo-bg.png" type="image/x-icon">
+    <link rel="icon" href="assets/img/about-logo.svg" type="image/x-icon">
 
     <!-- My style -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -30,7 +30,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav id="navbar-id" class="navbar fixed-top navbar-expand-lg navbar-default">
+    <nav id="navbar-id" class="navbar navbar-expand-lg navbar-default fixed-top bg-transparent nav-color">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/Group 2.svg" alt="" width="190" class="d-inline-block">
@@ -48,16 +48,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item mx-2">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
                 <div class="navbar-extra">
@@ -78,29 +81,59 @@
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="example@gmail.com" aria-label="email input" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                          <button class="btn btn-outline-warning" type="button">Subscribe</button>
+                            <button class="btn btn-outline-warning" type="button">Subscribe</button>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- End Hero Section -->
+
 
     <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-main col-12 text-center">
+                    <u><h2>About Us</h2></u>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <div class="about-logo text-center mx-auto">
+                        <img class="about-logo-img" src="assets/img/about-logo.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-4">
+                    <div class="about-text">
+                        <h2>Wildsy Shoe Care</h2>
+                        <p>
+                            Wildsy Shoe Care is a business engaged in special shoe washing services. Wildsy Shoe Care was founded on March 2 2023 which can be regarded as a college student pioneer of shoe laundry in Bekasi and Purwakarta, starting from an assignment for an entrepreneurship and advanced programming course at a university in the city of Bandung.
+                        </p>
+                        <button class="btn btn-outline-warning" type="submit">Explore more »</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
 
 
-    <!-- Service Section -->
+    <!-- Services Section -->
     <section id="services">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="services-main col-12 text-center">
                     <h2>Services</h2>
                     <span class="sub-title">We provide a wide range of services for the care of your favorite items that will be carried out by our experienced and professional team.</span>
                 </div>
             </div>
 
-            <div class="row mt-5">
-                <div class="col-md-4 text-center">
+            <div class="row">
+                <div class="col-md-4 mt-5 text-center">
                     <div class="services-card">
                         <div class="circle-icon position-relative mx-auto">
                             <img src="assets/img/services/fast-cleaning.png" alt="" class="position-absolute top-50 start-50 translate-middle">
@@ -110,7 +143,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 mt-5 text-center">
                     <div class="services-card">
                         <div class="circle-icon position-relative mx-auto">
                             <img src="assets/img/services/hard-cleaning.png" alt="" class="position-absolute top-50 start-50 translate-middle">
@@ -120,7 +153,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 mt-5 text-center">
                     <div class="services-card">
                         <div class="circle-icon position-relative mx-auto">
                             <img src="assets/img/services/premium-treatment.png" alt="" class="position-absolute top-50 start-50 translate-middle">
@@ -132,7 +165,108 @@
             </div>
         </div>
     </section>
+    <!-- End Services section -->
+    
 
+    <!-- Testimonial Section -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="testimonial-main col-12 text-center">
+                    <u><h2>Testimonial</h2></u>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mt-5 text-center">
+                    <div class="services-card">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="" alt="" class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-4">Coming soon</h3>
+                        <p class="mt-3">...</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mt-5 text-center">
+                    <div class="services-card">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="" alt="" class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-4">Coming soon</h3>
+                        <p class="mt-3">...</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mt-5 text-center">
+                    <div class="services-card">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="" alt="" class="position-absolute top-50 start-50 translate-middle">
+                        </div>
+                        <h3 class="mt-4">Coming soon</h3>
+                        <p class="mt-3">...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonial Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-main">
+                            <u><h2>Contact Us</h2></u>
+                            <!-- <h2>Wildsy Shoe Care</h2> -->
+                            <div>
+                                <!-- <img class="contact-logo" src="assets/img/icon/address-icon.png" alt="">  -->
+                                <a>Jalan Kemuning Gang Beringin RT.76/08, Nagri Kaler, Kab. Purwakarta Jawa Barat 41115</a>
+                            </div>
+
+                            <div class="mt-3">
+                                <img class="contact-logo" src="assets/img/icon/whatsapp.png" alt=""> 
+                                <a class="wa-link" href="https://api.whatsapp.com/send/?phone=6287772723726&text&type=phone_number&app_absent=0">+6287772723726</a>
+                            </div>
+
+                            <div class="mt-3">
+                                <img class="contact-logo" src="assets/img/icon/gmail.png" alt=""> 
+                                <a>customercare@wsc.co.id</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-10 mt-2">
+                        <p>© 2023 by Wildsy. All Right Reserved.</p>
+                    </div>
+                    <div class="col-md-2 align-items-right  ">
+                        <a class="socmed-link" href="https://www.instagram.com/wildsy_/" target="_blank"><i data-feather="instagram"></i></a>
+                        <a class="socmed-link" href="https://github.com/wildsy" target="_blank"><i data-feather="github"></i></a>
+                        <a class="socmed-link" href="https://www.linkedin.com/in/wildsy/" target="_blank"><i data-feather="linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Javascript -->
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
 
     <!-- Boootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -141,10 +275,8 @@
     </script>
     
     <!-- Feather icon -->
-    <script>
-    feather.replace()
-    </script>
-
+    <script>feather.replace()</script>
+<!-- End Javascript -->
 </body>
 
 </html>

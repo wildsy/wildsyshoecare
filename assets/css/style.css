@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
@@ -13,7 +18,7 @@ body {
 }
 
 .navbar-balancer {
-    margin-right: 30rem;
+    margin-right: 24rem;
 }
 
 .navbar-nav > li > a {
@@ -33,9 +38,10 @@ body {
 .button-primary {   
     background-color: #735F32;
     color: #FFC24C;
-    font-weight: 500;
+    font-weight: 400;
     border-radius: 8px;
     border: none;
+    width: 140px;
 }
 
 .button-primary:hover {
@@ -52,23 +58,52 @@ body {
 }
 
 .navbar-default .navbar-toggler-icon {
-    color: #735F32 !important;
+    color: #735F32;
     margin-top: 5px;
 }
 
 .navbar-default .navbar-toggler-icon:active {
-    color: #FFC24C !important;
+    color: #FFC24C;
 }
+
+/* Nav Color change scroolY */
+.nav-color {
+    background-color: #282A3A;
+
+    transition: all ease-in-out 0.4s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out 0.3s;
+}
+
 /* End Navbar Section */
 
-/* Mobile non transparent navbar */
-@media only screen and (max-width: 884px) {
-    #navbar-id {
-        background-color: #282A3A;
-        border-bottom-left-radius: 12px;
-        border-bottom-right-radius: 12px;
+
+/* Media queries */
+    /* Desktop media queries */
+@media only screen and (min-width: 884px) {
+    .hero-tagline {
+        margin-left: 1rem;
+        margin-top: 1rem;
     }
 }
+
+/* Mobile media queries */
+@media only screen and (max-width: 884px) {
+    body {
+        padding: 0;
+    }
+    
+    #navbar-id {
+        background-color: #282A3A !important;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        padding: 0;
+    }
+}
+/* End media queries */
+
 
 /* Hero Section */
 #hero {
@@ -81,11 +116,6 @@ body {
     background-size: cover;
     background-position: center;
     background-color: #282A3A;
-}
-
-.hero-tagline {
-    margin-left: 1rem;
-    margin-top: 1rem;
 }
 
 .hero-tagline h1 {
@@ -119,14 +149,51 @@ body {
 /* End Hero Section */
 
 
+/* About Section */
+#about {
+    padding: 100px 0px;
+    background-color: #fff;
+}
+
+.about-main h2 {
+    font-size: 42px;
+    font-weight: 500;
+    color: #000;
+}
+
+.about-main u {
+    color: #FFC24C;
+    text-underline-offset: 4px;
+}
+
+.about-logo {
+    border: solid #615b35;
+    border-radius: 50%;
+    width: 245px;
+    height: 245px;
+}
+
+.about-logo-img {
+    width: 240px;
+    height: 240px;
+}
+
+.about-text h2 {
+    font-weight: 500;
+    color: #735F32;
+}
+/* End About Section */
+
+
+
 /* Service Section */
 #services {
     padding: 100px 0;
     background-color: #282A3A;
 }
 
-h2 {
-    font-size: 48px;
+.services-main h2 {
+    font-size: 42px;
     font-weight: 500;
     color: #FFC24C;
 }
@@ -143,7 +210,7 @@ h2 {
     background : linear-gradient(160deg, #000, #615b35);
     padding: 40px;
     box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.005);
-  
+
     transition: all 1s ease-in;
 }
 
@@ -157,7 +224,7 @@ h2 {
 }
 
 .services-card h3 {
-    color: #FFC24C;
+    color: #cccccc;
     font-size: 24px;
 
     transition: all .2s ease-in;
@@ -166,7 +233,7 @@ h2 {
 .services-card p {
     color: #615b35;
     font-size: 14px;
-  
+
     transition: all .3s ease-in;
 }
 
@@ -205,3 +272,80 @@ h2 {
     transition: all .3s ease-in;
 }
 /* End Service Section */
+
+
+/* About Section */
+#testimonial {
+    padding: 100px 0px;
+    background-color: #fff;
+}
+
+.testimonial-main h2 {
+    font-size: 42px;
+    font-weight: 500;
+    color: #000;
+}
+
+.testimonial-main u {
+    color: #FFC24C;
+    text-underline-offset: 4px;
+}
+
+/* End About Section */
+
+
+/* Contact Section */
+#contact {
+    padding: 100px 0;
+    background-image: url('../img/motto-darker.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-main {
+    color: #fff;
+}
+
+.contact-main h2 {
+    font-size: 42px;
+    font-weight: 500;
+    color: #FFC24C;
+    margin-bottom: 2rem;
+}
+
+.contact-main u {
+    color: #000;
+    text-underline-offset: 4px;
+}
+
+.contact-logo {
+    width: 21px;
+    height: 21px;
+}
+
+.wa-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wa-link:hover {
+    color: #FFC24C;
+    text-decoration: none;
+}
+/* End Contact Section */
+
+/* Footer */
+footer {
+    padding: 5px 0;
+    background-color: #FFC24C;
+}
+
+.socmed-link {
+    color: #000;
+}
+
+.socmed-link:hover {
+    color: #fff;
+}
+/* End Footer */

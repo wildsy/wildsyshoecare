@@ -1,0 +1,16 @@
+Problem
+------------
+css : .hero-tagline = margin-top and margin left (solved by adding media queries for desktop)
+
+--------------------------------------------------------------
+Tasks left over
+---------------- 
+About section styling
+-----------------------
+footer socmed links in mobile view
+
+
+all over this line is done -----------------------
+
+-------------new tasks left over-------------------
+testimonial coming soon
